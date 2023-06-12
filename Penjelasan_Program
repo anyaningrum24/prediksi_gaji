@@ -1,0 +1,19 @@
+Program Prediksi Gaji menggunakan Regresi Linear
+
+Program ini merupakan implementasi regresi linear untuk memprediksi gaji berdasarkan masa kerja. Dalam program ini, digunakan dataset "Data Gaji.csv" yang berisi atribut masa kerja (X) dan label pendapatan (Y).
+
+Deskripsi Singkat Algoritma:
+1. Membaca dataset CSV dan membagi data menjadi atribut (X) dan label (Y).
+2. Memecah data menjadi data training dan data testing dengan rasio 80:20.
+3. Melakukan fitting regresi linear pada data training.
+4. Memprediksi gaji baru berdasarkan masa kerja menggunakan model regresi linear yang telah dilatih.
+5. Menampilkan visualisasi hasil regresi linear pada data training dan data testing.
+
+Modifikasi Program:
+- Menambahkan label pada plot visualisasi.
+- Mengatur judul dan label sumbu pada plot.
+- Menggunakan legend untuk membedakan data asli dan hasil regresi linear.
+
+Catatan:
+Pastikan dataset "Data Gaji.csv" sudah tersedia di direktori yang sama dengan program sebelum menjalankannya.
+
